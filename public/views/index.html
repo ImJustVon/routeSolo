@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="routeApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Routing Solo</title>
+    <script src="venders/angular/angular.min.js"></script>
+    <script src="venders/angular-route/angular-route.min.js"></script>
+    <script src="scripts/app.module.js"></script>
+    <script src="scripts/app.config.js"></script>
+    <link rel="stylesheet" href="venders/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/stylesheet.css" />
+    <base href="/" />
+  </head>
+  <body>
+    <a href="/ashe">Ashe</a>
+    <a href="/jhin">Jihn</a>
+    <a href="/lux">Lux</a>
+    <ng-view>
+
+    </ng-view>
+  </body>
+</html>
