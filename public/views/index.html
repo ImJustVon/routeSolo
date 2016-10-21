@@ -12,11 +12,27 @@
     <base href="/" />
   </head>
   <body>
-    <a href="/ashe">Ashe</a>
-    <a href="/jhin">Jihn</a>
-    <a href="/lux">Lux</a>
-    <ng-view>
+    <nav class="navbar navbar-inverse">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="/ashe">Ashe</a>
+        </li>
+        <li>
+          <a href="/jhin">Jihn</a>
+        </li>
+        <li>
+          <a href="/lux">Lux</a>
+        </li>
+      </ul>
 
-    </ng-view>
+
+
+    </nav>
+<div class="container">
+  <ng-view>
+
+  </ng-view>
+</div>
+
   </body>
 </html>
